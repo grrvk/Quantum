@@ -1,0 +1,198 @@
+text,tags,entities
+"The Matterhorn, a famous mountain with a distinctive peak, is located in Switzerland.",O B-MOUNTAIN O O O O O O O O O O O,Matterhorn
+"Fuji, Japan's highest mountain, is an active stratovolcano.",B-MOUNTAIN O O O O O O O,Fuji
+"Aspiring Mountain, also known as Aspiring, is the second-highest peak in New Zealand.",B-MOUNTAIN O O O O O O O O O O O O,Aspiring
+"Mount Whitney, at 14,505 feet, is the highest summit in the contiguous United States.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O,Mount Whitney
+"The Andes Mountains, the world's longest mountain range, run through several South American countries.",O B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O,Andes Mountains
+"Elbrus, located in Russia, is Europe's tallest mountain.",B-MOUNTAIN O O O O O O O,Elbrus
+"Mount Kosciuszko, at 7,310 feet, is the highest mountain in Australia.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O,Mount Kosciuszko
+"Vesuvius, the famous volcano near Naples, Italy, is known for its destructive eruptions.",B-MOUNTAIN O O O O O O O O O O O O,Vesuvius
+The breathtaking view of Fuji from our hotel room was a sight to behold.,O O O O B-MOUNTAIN O O O O O O O O O,Fuji
+"In the heart of New Zealand lies the majestic Mount Cook, the highest peak in the country.",O O O O O O O O O B-MOUNTAIN I-MOUNTAIN O O O O O O,Mount Cook
+"The Matterhorn, located in Switzerland, is one of the most iconic mountains in the world.",O B-MOUNTAIN O O O O O O O O O O O O O,Matterhorn
+Aoraki/Mount Cook is New Zealand's highest mountain and a popular destination for climbers.,B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O,Aoraki/Mount Cook
+"Fuji, Japan's tallest mountain, is a dormant stratovolcano and a cultural icon.",B-MOUNTAIN O O O O O O O O O O O,Fuji
+"Mount Kilimanjaro, Africa's highest peak, offers multiple climbing routes of varying difficulty.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O,Mount Kilimanjaro
+"The Andes, the world's longest mountain range, span seven countries in South America.",O B-MOUNTAIN O O O O O O O O O O O,Andes
+"Elbrus, Europe's tallest mountain, is a part of the Caucasus Mountain Range.",B-MOUNTAIN O O O O O O O O O O O,Elbrus
+"Whitney, located in California, is the highest summit in the contiguous United States.",B-MOUNTAIN O O O O O O O O O O O O,Whitney
+"Mount Vinson Massif, the highest point in Antarctica, is a popular destination for extreme climbers.",B-MOUNTAIN I-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O,Mount Vinson Massif
+"Logan, Canada's highest mountain, is located within Kluane National Park and Reserve.",B-MOUNTAIN O O O O O O O O O O O,Logan
+"Mount Kosciuszko, Australia's tallest mountain, can be found in the Snowy Mountains of New South Wales.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O,Mount Kosciuszko
+"Aoraki/Mt. Cook is New Zealand's highest peak, standing at an impressive height of 3,754 meters.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O,Aoraki/Mt. Cook
+"Fuji, located on the island of Honshu, is an active stratovolcano that last erupted in 1707.",B-MOUNTAIN O O O O O O O O O O O O O O O,Fuji
+"The Matterhorn, a famous and iconic peak in the Swiss Alps, reaches a height of 4,478 meters.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O O,The Matterhorn
+"Whitney, located in California's Sierra Nevada mountain range, is the highest summit in the contiguous United States.",B-MOUNTAIN O O O O O O O O O O O O O O O O,Whitney
+"Elbrus, a dormant volcano in Russia, is the tallest mountain in Europe, with a height of 5,642 meters.",B-MOUNTAIN O O O O O O O O O O O O O O O O O,Elbrus
+"Mont Blanc, located on the border between France and Italy, is the highest mountain in the Alps, standing at 4,808 meters.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O O O O O O,Mont Blanc
+"The Andes Mountains, the longest continental mountain range in the world, stretch for over 7,000 kilometers along South America's western edge.",B-MOUNTAIN I-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O O O O O,The Andes Mountains
+"Mount McKinley, also known as Denali, is the highest mountain peak in North America. || Mount McKinley (Denali)",O O O O O B-MOUNTAIN O O O O O O O O O O O O,Denali
+"Mount Kilimanjaro, a dormant volcano in Tanzania, is Africa's highest peak and a popular destination for climbers from around the world. || Mount Kilimanjaro (Tanzania)",O B-MOUNTAIN O O O O O O O O O O O O O O O O O O O O O O O,Kilimanjaro
+"The Matterhorn, a famous mountain with a distinctive peak, can be found in the Swiss Alps.",O B-MOUNTAIN O O O O O O O O O O O O O O,Matterhorn
+"Aoraki/Mount Cook is New Zealand's highest peak, towering at 3,754 meters.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O,Aoraki/Mount Cook
+"The Matterhorn, a pyramid-shaped mountain in Switzerland, is one of the most iconic peaks.",O B-MOUNTAIN O O O O O O O O O O O O,Matterhorn
+Mount Vinson Massif is located in Antarctica and is the highest point on the continent.,B-MOUNTAIN I-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O,Mount Vinson Massif
+"Mount Fuji, Japan's tallest mountain, is a popular destination for climbers.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O,Mount Fuji
+"Kangchenjunga, the third highest peak in the world, borders Nepal and India.",B-MOUNTAIN O O O O O O O O O O O,Kangchenjunga
+"The Andes, the world's longest mountain range, stretch more than 7,000 kilometers through South America.",O B-MOUNTAIN O O O O O O O O O O O O O,Andes
+"Elbrus, located in Russia, is Europe's highest peak.",B-MOUNTAIN O O O O O O O,Elbrus
+"The Carpathian Mountains, a system of mountains in Eastern Europe, are home to many national parks.",O B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O,Carpathian Mountains
+"Mount Logan, located in Canada's Yukon Territory, is the highest peak in Canada.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O,Mount Logan
+Mount Kilimanjaro's Uhuru Peak is the highest summit in Africa. || Mount Kilimanjaro (Uhuru Peak),O B-MOUNTAIN O O O O O O O O O O O O O,Kilimanjaro
+"The Matterhorn, a famous mountain in the Swiss Alps, has been a popular destination for climbers worldwide.",O B-MOUNTAIN O O O O O O O O O O O O O O O,Matterhorn
+"Aconcagua, standing tall at an elevation of 6,959 meters, is the highest peak in South America.",B-MOUNTAIN O O O O O O O O O O O O O O O,Aconcagua
+"Fuji, Japan's most famous mountain, is a stratovolcano that last erupted over 300 years ago.",B-MOUNTAIN O O O O O O O O O O O O O O,Fuji
+"Mount Elbrus, located in Russia, is the highest peak in Europe with two summits.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O,Mount Elbrus
+"The Andes Mountain range stretches over 7,000 kilometers along the western coast of South America.",O B-MOUNTAIN O O O O O O O O O O O O O,Andes
+"Mount McKinley, also known as Denali, is the highest mountain peak in North America. (Repeated for clarity)",O O O O O B-MOUNTAIN O O O O O O O O O O O,Denali
+"Mount Vinson, situated in Antarctica, is the highest summit on that continent.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O,Mount Vinson
+"Mount Olympus, located in Greece, was considered the home of the ancient Greek gods.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O,Mount Olympus
+"Mount Kilimanjaro, a dormant volcano in Tanzania, has three distinct cones and vegetation zones. (Repeated for clarity)",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O O,Mount Kilimanjaro
+"The Ural Mountains, which form the natural border between Europe and Asia, are an extensive mountain range with many peaks.",O B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O O O O,Ural Mountains
+"The Matterhorn, a famous mountain in Switzerland with a distinctive peak, is recognized worldwide.",O B-MOUNTAIN O O O O O O O O O O O O,Matterhorn
+"Mount Fuji, Japan's highest mountain, is an active stratovolcano.",B-MOUNTAIN I-MOUNTAIN O O O O O O O,Mount Fuji
+"The highest peak in Africa, Kilimanjaro, can be seen from space.",O O O O O B-MOUNTAIN O O O O O,Kilimanjaro
+"Mount Whitney, the tallest mountain in the contiguous United States, is part of the Sierra Nevada range.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O O,Mount Whitney
+"Mount Rinjani, an active volcano on the Indonesian island of Lombok, has a caldera lake within its summit crater.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O O O O,Mount Rinjani
+"Mont Blanc, the highest peak in Europe, lies along the border of France and Italy.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O,Mont Blanc
+"The highest peak in South America, Aconcagua, is located in Argentina. || Aconcagua (Argentina)",O O O O O O B-MOUNTAIN O O O O O O O,Aconcagua
+"Mount Elbrus, a dormant volcano in Russia, is Europe's second-highest mountain. || Mount Elbrus (Russia)",O B-MOUNTAIN O O O O O O O O O O O O O,Elbrus
+The breathtaking view from Aoraki/Mount Cook can be seen for miles.,O O O O B-MOUNTAIN I-MOUNTAIN O O O O O,Aoraki/Mount Cook
+"Mount Fuji is an active stratovolcano located on Honshu Island, Japan.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O,Mount Fuji
+"The Matterhorn, a famous peak with a distinctive pyramid shape, is located in Switzerland.",O B-MOUNTAIN O O O O O O O O O O O O,Matterhorn
+"Aconcagua, towering at over 6,959 meters, is the highest mountain in South America.",B-MOUNTAIN O O O O O O O O O O O O,Aconcagua
+"Mount Fuji, an active stratovolcano in Japan, is known for its symmetrical cone shape.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O,Mount Fuji
+"Mount McKinley, also known as Denali, is the highest peak in North America. (Repeated for clarity)",O O O O O B-MOUNTAIN O O O O O O O O O O,Denali
+"The Andes, a mountain range that stretches over 7,000 kilometers in South America, are the world's longest.",O B-MOUNTAIN O O O O O O O O O O O O O O O,Andes
+"Elbrus, located in Russia and part of the Caucasus Mountains, is Europe's highest peak.",B-MOUNTAIN O O O O O O O O O O O O O,Elbrus
+"Kilimanjaro, a dormant volcano in Tanzania, is Africa's tallest mountain. (Repeated for clarity)",B-MOUNTAIN O O O O O O O O O O O O,Kilimanjaro
+"Mount Vinson, located in Antarctica and the highest point on the continent, is a popular destination for climbers.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O O O,Mount Vinson
+"Olympus, not only a mythological home of the gods but also Greece's highest mountain.",B-MOUNTAIN O O O O O O O O O O O O O,Olympus
+"The Alps, an extensive range spanning eight countries in Europe, include many notable peaks like Mont Blanc.",O B-MOUNTAIN O O O O O O O O O O O O O O O,Alps
+The Aoraki/Mt. Cook is the tallest mountain in New Zealand.,O B-MOUNTAIN I-MOUNTAIN O O O O O O O,Aoraki/Mt. Cook
+"Matterhorn, with its distinctive peak, is located in the Swiss Alps.",B-MOUNTAIN O O O O O O O O O O,Matterhorn
+"Fuji, an active stratovolcano, is Japan's highest mountain.",B-MOUNTAIN O O O O O O O,Fuji
+"In South America, the Andes mountain range stretches over 7,000 kilometers.",O O O O B-MOUNTAIN O O O O O O,Andes
+Vinson Massif is located in Antarctica and is the highest summit on that continent.,B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O,Vinson Massif
+The Matterhorn peak lies on the border between Switzerland and Italy.,O B-MOUNTAIN O O O O O O O O O,Matterhorn
+"Mont Blanc, standing at 4,810 meters tall, is Europe's highest mountain.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O,Mont Blanc
+"Elbrus, a dormant volcano, is the highest peak in Russia.",B-MOUNTAIN O O O O O O O O O,Elbrus
+Mount Whitney is the highest summit of the contiguous United States.,B-MOUNTAIN I-MOUNTAIN O O O O O O O O O,Mount Whitney
+"The Matterhorn, a famous peak in Switzerland, is one of the most recognizable mountains worldwide.",O B-MOUNTAIN O O O O O O O O O O O O O,Matterhorn
+Aspen trees cover the slopes of Colorado's Aspen.,B-MOUNTAIN O O O O O O O,Aspen
+"Mount Fuji is an active stratovolcano located on Honshu Island, Japan.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O,Mount Fuji
+The majestic Mount Elbrus is Europe's highest peak and part of the Caucasus Mountains.,O O B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O,Mount Elbrus
+The dramatic Rushmore features presidential faces carved into its granite walls.,O O B-MOUNTAIN O O O O O O O O,Rushmore
+"Vesuvius, famous for its role in the eruption that destroyed Pompeii, is an active volcano in Italy.",B-MOUNTAIN O O O O O O O O O O O O O O O O,Vesuvius
+"The snow-capped Mount Shasta is a dormant volcano located in California, USA.",O O B-MOUNTAIN I-MOUNTAIN O O O O O O O O,Mount Shasta
+The rugged Appalachian Mountains stretch from Alabama to Maine in the eastern United States.,O O B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O,Appalachian Mountains
+"Mount Olympus, a mythological home of the gods, is also a mountain range in Greece. || Mount Olympus (Greece)",O B-MOUNTAIN O O O O O O O O O O O O O O O O O,Olympus
+"Mount Kilimanjaro, Africa's highest mountain, offers adventurers a challenging climb. || Mount Kilimanjaro (Tanzania)",O B-MOUNTAIN O O O O O O O O O O O O,Kilimanjaro
+"The Matterhorn, a distinctive mountain peak in Switzerland, is recognized worldwide for its unique shape.",O B-MOUNTAIN O O O O O O O O O O O O O,Matterhorn
+"Fuji, Japan's highest mountain, is an active stratovolcano and a popular destination for climbers.",B-MOUNTAIN O O O O O O O O O O O O O,Fuji
+"Aconcagua, located in the Andes, is the highest peak in South America and the highest outside Asia.",B-MOUNTAIN O O O O O O O O O O O O O O O O,Aconcagua
+"Mount McKinley, also known as Denali, is the highest mountain peak in North America. (Repeated for clarity)",O O O O O B-MOUNTAIN O O O O O O O O O O O,Denali
+"Vinson, situated in Antarctica, is the southernmost of the seven summits and the lowest of the seven by elevation.",B-MOUNTAIN O O O O O O O O O O O O O O O O O O,Vinson
+"Mount Elbrus, a dormant volcano in Russia, is Europe's highest mountain.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O,Mount Elbrus
+"Mount Olympus, located in Greece, was considered the home of the Greek gods according to mythology.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O,Mount Olympus
+"Ararat, located in Eastern Turkey and Western Iran, is associated with the biblical story of Noah's Ark.",B-MOUNTAIN O O O O O O O O O O O O O O O O,Ararat
+"Mount Kosciuszko, Australia's highest mountain, is named after Polish soldier Tadeusz Kościuszko.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O,Mount Kosciuszko
+"Kilimanjaro, a dormant volcano in Tanzania, is the highest peak in Africa and a popular destination for climbers. (Repeated for clarity)",B-MOUNTAIN O O O O O O O O O O O O O O O O O O O O,Kilimanjaro
+"The Matterhorn, a famous mountain peak in Switzerland, is recognizable by its distinctive pyramid shape.",O B-MOUNTAIN O O O O O O O O O O O O O,Matterhorn
+"Mount Fuji, Japan's highest mountain, is an active stratovolcano and a popular destination for climbers.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O,Mount Fuji
+"The Andes, the world's longest mountain range, stretch over 7,000 kilometers through South America.",O B-MOUNTAIN O O O O O O O O O O O O,Andes
+"Elbrus, the highest peak in Europe, is located in Russia near the border with Georgia.",B-MOUNTAIN O O O O O O O O O O O O O O,Elbrus
+"Olympus, a mythological mountain associated with the Greek gods, is located in Greece.",B-MOUNTAIN O O O O O O O O O O O O,Olympus
+Kilimanjaro's three volcanic cones form Tanzania's highest point and an attractive destination for trekkers.,B-MOUNTAIN O O O O O O O O O O O O O,Kilimanjaro
+"The Appalachian Mountains, a major mountain range in eastern North America, stretch from Quebec to Alabama.",O B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O,Appalachian Mountains
+"Mount Vesuvius, the famous volcano near Naples, Italy, is best known for its eruption that destroyed Pompeii and Herculaneum.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O O O O,Mount Vesuvius
+"Mount McKinley, located in Alaska, was renamed Denali by its native Koyukon name meaning ""the high one."" || Denali (formerly Mount McKinley)",O O O O O O O B-MOUNTAIN O O O O O O O O O O O O O O,Denali
+"The Matterhorn, located in Switzerland, is one of the most recognizable mountains in the world.",O B-MOUNTAIN O O O O O O O O O O O O O,Matterhorn
+"Fuji, Japan's highest mountain, is a popular destination for climbers.",B-MOUNTAIN O O O O O O O O O,Fuji
+"Aconcagua, standing tall in Argentina, is the highest peak in South America.",B-MOUNTAIN O O O O O O O O O O O,Aconcagua
+"Mount Elbrus, straddling Europe and Asia, is the highest mountain in Russia.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O,Mount Elbrus
+"Mount Vesuvius, famous for its eruption that destroyed Pompeii, is an active volcano in Italy.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O,Mount Vesuvius
+"Mount Olympus, mythically home to the Greek gods, is the highest mountain in Greece.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O,Mount Olympus
+"Ararat, legendarily where Noah's Ark came to rest, is located in Turkey.",B-MOUNTAIN O O O O O O O O O O O,Ararat
+"Mount Whitney, the tallest summit in the contiguous United States, is part of the Sierra Nevada range.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O O,Mount Whitney
+"Kosciuszko, the highest peak in Australia, is located in New South Wales.",B-MOUNTAIN O O O O O O O O O O O,Kosciuszko
+"Logan, Canada's highest mountain, is part of the Saint Elias Mountain Range.",B-MOUNTAIN O O O O O O O O O O O,Logan
+The majestic Matterhorn is a popular peak in the Swiss Alps.,O O B-MOUNTAIN O O O O O O O O,Matterhorn
+"Fuji, Japan's highest mountain, is an active stratovolcano.",B-MOUNTAIN O O O O O O O,Fuji
+"In the Andes, the tallest peak is Aconcagua.",O O O O O O O B-MOUNTAIN,Aconcagua
+The Great Smoky Mountains are known for their foggy appearance.,O B-MOUNTAIN I-MOUNTAIN I-MOUNTAIN O O O O O O,Great Smoky Mountains
+Mount Vesuvius in Italy is most famous for its volcanic eruption that buried Pompeii.,B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O,Mount Vesuvius
+"Mount Olympus, in Greece, is a mythical home of the gods.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O,Mount Olympus
+Aspen trees are abundant in Colorado's Rocky Mountains. || Rocky Mountains (specifically the Colorado portion),O O O O O O B-MOUNTAIN I-MOUNTAIN O O O O O O O,Rocky Mountains
+"The highest mountain in Africa is Kilimanjaro, located in Tanzania. || Mount Kilimanjaro (already mentioned but with additional context)",O O O O O O B-MOUNTAIN O O O O O O O O O O O O,Kilimanjaro
+The famous mountain range separating Canada and the United States is the Appalachians. || Appalachian Mountains,O O O O O O O O O O O O O O B-MOUNTAIN I-MOUNTAIN,Appalachian Mountains
+Mount Aconcagua is the highest peak outside of Asia. || Mount Aconcagua (repeated with additional context),O B-MOUNTAIN O O O O O O O O O O O O O O,Aconcagua
+"The Matterhorn, a famous peak in Switzerland, is recognized worldwide for its unique shape.",O B-MOUNTAIN O O O O O O O O O O O O,Matterhorn
+Aspen trees cover the slopes of Colorado's Aspen.,B-MOUNTAIN O O O O O O O,Aspen
+"Fuji, Japan's highest mountain, is an active stratovolcano.",B-MOUNTAIN O O O O O O O,Fuji
+"The Andes, the world's longest mountain range, stretch along western South America.",O B-MOUNTAIN O O O O O O O O O O,Andes
+"Mount Elbrus, located in Russia, is Europe's tallest peak.",B-MOUNTAIN I-MOUNTAIN O O O O O O O,Mount Elbrus
+"Whitney, in California, is the highest summit in the contiguous United States.",B-MOUNTAIN O O O O O O O O O O O,Whitney
+"Mount Kenya, found in Kenya, Africa, has three peaks: Batian, Nelion, and Point Lenana.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O,Mount Kenya
+"Rinjani, located on the Indonesian island of Lombok, features a volcanic caldera known as Segara Anak.",B-MOUNTAIN O O O O O O O O O O O O O O O,Rinjani
+"The Ural Mountains, which separate Europe from Asia, are an ancient mountain range.",O B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O,Ural Mountains
+"Mount Olympus, the mythical home of the Greek gods, is also a mountain range in Greece. || Mount Olympus (Greece)",O B-MOUNTAIN O O O O O O O O O O O O O O O O O O,Olympus
+"The Matterhorn, a famous peak in Switzerland, is known for its distinctive pyramid shape.",O B-MOUNTAIN O O O O O O O O O O O O,Matterhorn
+"Fuji, located in Japan, is the country's highest mountain and an active stratovolcano.",B-MOUNTAIN O O O O O O O O O O O O,Fuji
+"Aspiring to climb Aconcagua, the highest peak in South America, is a popular goal among mountaineers.",O O O B-MOUNTAIN O O O O O O O O O O O O,Aconcagua
+"Mount Elbrus, part of the Caucasus Mountain Range, is Europe's tallest mountain.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O,Mount Elbrus
+"In New Zealand, Mount Cook is the highest mountain among the Southern Alps.",O O O B-MOUNTAIN I-MOUNTAIN O O O O O O O O,Mount Cook
+"Mount Olympus, located in Greece, is famous not only for its natural beauty but also for mythological reasons.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O O O,Mount Olympus
+"Vesuvius, known for its eruption that destroyed Pompeii, is an active volcano in Italy.",B-MOUNTAIN O O O O O O O O O O O O O,Vesuvius
+"The Andes, the world's longest mountain range, stretch over several South American countries.",O B-MOUNTAIN O O O O O O O O O O O,Andes
+"Kinabalu, located in Borneo, is the highest peak in Southeast Asia.",B-MOUNTAIN O O O O O O O O O O,Kinabalu
+"In Antarctica, Mount Vinson is the highest point on the continent and a popular destination for extreme climbers.",O O B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O,Mount Vinson
+"The Matterhorn, a famous peak in Switzerland's Alps, is known for its distinctive pyramidal shape.",O B-MOUNTAIN O O O O O O O O O O O O O,Matterhorn
+Aoraki/Mount Cook is New Zealand's highest mountain and a popular destination for climbers.,B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O,Aoraki/Mount Cook
+"Fuji, an active stratovolcano in Japan, is the country's highest mountain and a cultural icon.",B-MOUNTAIN O O O O O O O O O O O O O O,Fuji
+"Mount Elbrus, located in Russia, is the highest peak in Europe and a popular destination for climbers.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O O,Mount Elbrus
+"Mount McKinley, also known as Denali, is the highest mountain peak in North America. (Repeated for clarity)",O O O O O B-MOUNTAIN O O O O O O O O O O O,Denali
+"Vesuvius, famous for its eruption that destroyed Pompeii, is an active stratovolcano in Italy.",B-MOUNTAIN O O O O O O O O O O O O O,Vesuvius
+"Aconcagua, located in Argentina and Chile, is the highest mountain outside Asia.",B-MOUNTAIN O O O O O O O O O O O,Aconcagua
+"Whitney, in California's Sierra Nevada range, is the highest summit in the contiguous United States.",B-MOUNTAIN O O O O O O O O O O O O O O,Whitney
+"Kosciuszko, Australia's highest mountain, can be found in the Snowy Mountains of New South Wales.",B-MOUNTAIN O O O O O O O O O O O O O O,Kosciuszko
+"Mount Kilimanjaro, a dormant volcano in Tanzania, is the highest peak in Africa. || Mount Kilimanjaro (Repeated for clarity)",O B-MOUNTAIN O O O O O O O O O O O O O O O O O,Kilimanjaro
+"The Matterhorn, a famous peak in Switzerland's Alps, attracts mountain climbers from around the world.",O B-MOUNTAIN O O O O O O O O O O O O O,Matterhorn
+Aoraki/Mount Cook is New Zealand's highest mountain and a popular destination for hikers.,B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O,Aoraki/Mount Cook
+"Fuji, an active stratovolcano in Japan, is a cultural symbol and UNESCO World Heritage site.",B-MOUNTAIN O O O O O O O O O O O O O O,Fuji
+"Mount Elbrus, the tallest peak in Europe, lies on the border of Russia and Georgia.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O,Mount Elbrus
+"Whitney, situated in California's Sierra Nevada range, is the highest summit in the contiguous United States.",B-MOUNTAIN O O O O O O O O O O O O O O O,Whitney
+"Mount Aconcagua, located in the Andes of Argentina and Chile, is the highest peak outside Asia.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O,Mount Aconcagua
+"Mount Vesuvius, a famous volcano near Naples, Italy, is best known for its eruption that destroyed Pompeii.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O O,Mount Vesuvius
+"Rushmore, a monument carved into a mountain in South Dakota, features the faces of four U.S. presidents.",B-MOUNTAIN O O O O O O O O O O O O O O O O,Rushmore
+"Mount Olympus, located in Greece, is the highest peak in the Balkans and home to many mythological gods according to Greek mythology.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O O O O O O O,Mount Olympus
+"Mount Kilimanjaro, a dormant volcano in Tanzania, offers trekkers multiple routes to its summit. || Mount Kilimanjaro (Repeated for variety)",O B-MOUNTAIN O O O O O O O O O O O O O O O O O O,Kilimanjaro
+"The Andes Mountain Range, stretching over several countries in South America, is one of the longest in the world.",O B-MOUNTAIN I-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O O,Andes Mountain Range
+"Elbrus, located in Russia, is Europe's highest peak.",B-MOUNTAIN O O O O O O O,Elbrus
+"Fuji, an active stratovolcano, is Japan's tallest mountain.",B-MOUNTAIN O O O O O O O,Fuji
+"The Matterhorn, a renowned peak with a distinctive pyramid shape, is located in the Alps on the border between Switzerland and Italy.",O B-MOUNTAIN O O O O O O O O O O O O O O O O O O O O,Matterhorn
+"Mount Aconcagua, nestled within the Andes, is the highest mountain outside of Asia.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O,Mount Aconcagua
+"Mount Vinson Massif, standing in Antarctica, is the southernmost highpoint of all seven summits.",B-MOUNTAIN I-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O,Mount Vinson Massif
+"Whitney, situated in California, USA, is the highest peak in the Lower 48 states.",B-MOUNTAIN O O O O O O O O O O O O O,Whitney
+"The Ural Mountains, an ancient range, form a natural border between Europe and Asia.",O B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O,Ural Mountains
+"Mount Kenya, a stratovolcano, is the second-highest mountain in Africa after Kilimanjaro.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O,Mount Kenya
+"Mount Kosciuszko, located in Australia's Snowy Mountains, is the highest mainland peak of Oceania.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O,Mount Kosciuszko
+The Matterhorn mountain is a famous peak that straddles the border between Switzerland and Italy.,O B-MOUNTAIN O O O O O O O O O O O O O,Matterhorn
+"Fuji, located on Honshu Island in Japan, is the country's highest mountain.",B-MOUNTAIN O O O O O O O O O O O,Fuji
+"The Andes, the world's longest mountain range, stretch along western South America.",O B-MOUNTAIN O O O O O O O O O O,Andes
+"Mount Olympus, considered the highest mountain in Greece, was home to the gods in Greek mythology.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O,Mount Olympus
+Elbrus is Europe's tallest mountain and is located in Russia's Caucasus Mountains.,B-MOUNTAIN O O O O O O O O O O O,Elbrus
+"The Ural Mountains, which form a natural border between Europe and Asia, are an extensive range of mountains.",O B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O O O,Ural Mountains
+"Vesuvius, a volcanic mountain near Naples, Italy, is famous for its eruption that destroyed Pompeii.",B-MOUNTAIN O O O O O O O O O O O O O O,Vesuvius
+"Rushmore, located in South Dakota, USA, features the monumental faces of four US presidents.",B-MOUNTAIN O O O O O O O O O O O O O,Rushmore
+"The Rocky Mountains extend over 4,800 kilometers and are home to various national parks and wildlife.",O B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O O O,Rocky Mountains
+"The Matterhorn, a iconic peak in Switzerland, is known for its distinctive pyramid shape.",O B-MOUNTAIN O O O O O O O O O O O O,Matterhorn
+Aspen trees cover the slopes of Colorado's Aspen.,B-MOUNTAIN O O O O O O O,Aspen
+"Fuji, Japan's highest mountain, is a popular destination for climbers worldwide.",B-MOUNTAIN O O O O O O O O O O,Fuji
+"The Andes are the world's longest continental mountain range, stretching through several South American countries.",O B-MOUNTAIN O O O O O O O O O O O O O,Andes
+"Elbrus, located in Russia, is Europe's highest peak.",B-MOUNTAIN O O O O O O O,Elbrus
+"Mount Olympus, Greece's highest mountain, is associated with the ancient Greek gods.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O,Mount Olympus
+"Mount Whitney, in California, is the tallest summit in the contiguous United States.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O O,Mount Whitney
+Kenya is Africa's second highest peak and a significant habitat for wildlife.,B-MOUNTAIN O O O O O O O O O O O,Kenya
+The Ural Mountains form a natural border between Europe and Asia.,O B-MOUNTAIN I-MOUNTAIN O O O O O O O O,Ural Mountains
+"Mount Kosciuszko, Australia's highest mountain, is part of the Snowy Mountains range.",B-MOUNTAIN I-MOUNTAIN O O O O O O O O O O,Mount Kosciuszko

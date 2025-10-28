@@ -1,0 +1,113 @@
+# Famous Mountain Peaks
+Mount Everest
+K2
+Kangchenjunga
+Lhotse
+Makalu
+Cho Oyu
+Dhaulagiri
+Manaslu
+Nanga Parbat
+Annapurna
+Gasherbrum I
+Broad Peak
+Gasherbrum II
+Shishapangma
+
+# European Mountains
+Matterhorn
+Mont Blanc
+Monte Rosa
+Eiger
+Jungfrau
+Mönch
+Gran Paradiso
+Barre des Écrins
+Zugspitze
+Triglav
+Ben Nevis
+Elbrus
+
+# North American Mountains
+Denali
+Mount Logan
+Mount Saint Elias
+Mount Foraker
+Mount Blackburn
+Mount Bona
+Mount Steele
+Mount Sanford
+Mount Wrangell
+Mount Adams
+Mount Whitney
+Mount Rainier
+Mount Shasta
+
+# South American Mountains
+Aconcagua
+Ojos del Salado
+Monte Pissis
+Huascarán
+Cerro Bonete
+Nevado Tres Cruces
+Llullaillaco
+Yerupajá
+Incahuasi
+Galan
+
+# African Mountains
+Kilimanjaro
+Mount Kenya
+Mount Stanley
+Mount Speke
+Mount Baker
+Mount Emin
+Mount Gessi
+Mount Luigi di Savoia
+Mount Elgon
+Toubkal
+
+# Asian Mountains (excluding Himalayas)
+Mount Fuji
+Mount Damavand
+Fan Si Pan
+Jade Dragon Snow Mountain
+Mount Hallasan
+Mount Tai
+Mount Hua
+Mount Song
+Mount Heng
+Mount Emei
+
+# Mountain Ranges
+Himalayas
+Alps
+Andes
+Rocky Mountains
+Atlas Mountains
+Appalachian Mountains
+Carpathian Mountains
+Caucasus Mountains
+Urals
+Pyrenees
+Sierra Nevada
+Cascade Range
+Alaska Range
+Transantarctic Mountains
+
+# Other Notable Mountains
+Ama Dablam
+Pumori
+Nuptse
+Changtse
+Aragats
+Ararat
+Demavend
+Klyuchevskaya Sopka
+Tatras
+Rila
+Pirin
+Olympus
+Etna
+Vesuvius
+Stromboli
