@@ -123,7 +123,7 @@ This notebook provides a walkthrough of:
 
 ## Model Performance
 
-The model has been trained on the dataset and achieves strong performance on mountain entity recognition. 
+The model has been trained on the dataset. 
 
 ### Training Metrics
 
