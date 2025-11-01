@@ -200,9 +200,9 @@ This notebook provides a walkthrough of:
 
 Sample output visualizations from the project:
 
-| Baseline Models                                        | Custom SuperPoint |
-|--------------------------------------------------------|-------------------|
-| **LoFTR**                                              | **Self-Matching SuperPoint** |
-| ![LoFTR Results](results/baseline_loftr_3.png)         | ![Self-Matching Results](results/20251101_011146_image_sm.png) |
-| **LightGlue**                                          | **Polygon Keypoint SuperPoint** |
-| ![LightGlue Results](results/baseline_lightglue_1.png) | ![Polygon Keypoint Results](results/20251101_010843_image_poly.png) |
+| Baseline Models                                                                                | Custom SuperPoint                                                                                           |
+|------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| **LoFTR**                                                                                      | **Self-Matching SuperPoint**                                                                                |
+| <img src="results/baseline_loftr_3.png" alt="LoFTR Results" width="1600" height="300">         | <img src="results/20251101_011146_image_sm.png" alt="Self-Matching Results" width="1600" height="300">      |
+| **LightGlue**                                                                                  | **Polygon Keypoint SuperPoint**                                                                             |
+| <img src="results/baseline_lightglue_1.png" alt="LightGlue Results" width="1600" height="300"> | <img src="results/20251101_010843_image_poly.png" alt="Polygon Keypoint Results" width="1600" height="300"> |
