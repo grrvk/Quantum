@@ -38,6 +38,8 @@ NER/
 ### Prerequisites
 
 - Ollama installed with Mistral model
+- Trained model weights are available on [Drive](https://drive.google.com/drive/folders/1mz_LK3MSaZcCszOpcQuEFoPQkNqSzGwf?usp=sharing). 
+Downloaded folder must be placed to NER/results
 
 ### Setup
 
