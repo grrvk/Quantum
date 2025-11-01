@@ -107,7 +107,7 @@ class SuperPointTrainer:
         confidence_loss = confidence_loss * 0.1
         loss_components['confidence_loss'] = confidence_loss.item()
 
-        # 2. Descriptor Consistency Loss with Similarity Matrix
+        # 2. Descriptor Consistency Loss
         if feats0['descriptors'].shape[1] > 0 and feats1['descriptors'].shape[1] > 0:
             desc0 = feats0['descriptors']
             desc1 = feats1['descriptors']
@@ -337,7 +337,7 @@ class SuperPointTrainer:
 
         checkpoint = {
             'epoch': epoch,
-            'superpoint_state_dict': self.superpoint.state_dict(),  # Only save SuperPoint!
+            'superpoint_state_dict': self.superpoint.state_dict(),
             'optimizer_state_dict': self.optimizer.state_dict(),
             'scheduler_state_dict': self.scheduler.state_dict(),
             'history': self.history,

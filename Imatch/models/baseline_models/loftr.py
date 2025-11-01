@@ -31,7 +31,7 @@ class LoFTR:
         if len(keypoints0) > 8:
             Fm, inliers = cv2.findFundamentalMat(
                 keypoints0, keypoints1,
-                cv2.FM_RANSAC, 0.5, 0.99, maxIters=1000  # Reduced iterations
+                cv2.FM_RANSAC, 0.5, 0.99, maxIters=1000
             )
             inliers = inliers > 0 if inliers is not None else np.zeros(len(keypoints0), dtype=bool)
         else:

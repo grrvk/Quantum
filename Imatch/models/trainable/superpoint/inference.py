@@ -2,7 +2,7 @@ import torch
 import numpy as np
 import cv2
 from pathlib import Path
-from typing import Dict, Tuple, List, Optional
+from typing import Dict, Tuple, Optional
 import kornia as K
 from lightglue import LightGlue, SuperPoint
 from lightglue.utils import rbd
@@ -368,34 +368,27 @@ class SuperPointLightGlueInference:
 
         h0, w0 = image0.shape[:2]
         h1, w1 = image1.shape[:2]
-        
-        # Add titles with filenames
+
         filename0 = result.get('filename0', 'Image 0')
         filename1 = result.get('filename1', 'Image 1')
-        
-        # Add space for title bar at the top
+
         title_height = 30
         vis_height = max(h0, h1) + title_height
         vis_image = np.zeros((vis_height, w0 + w1, 3), dtype=np.uint8)
-        
-        # Place images below the title
+
         vis_image[title_height:title_height+h0, :w0] = image0
         vis_image[title_height:title_height+h1, w0:w0+w1] = image1
-        
-        # Draw black rectangles for title backgrounds
+
         cv2.rectangle(vis_image, (0, 0), (w0, title_height), (0, 0, 0), -1)
         cv2.rectangle(vis_image, (w0, 0), (w0 + w1, title_height), (0, 0, 0), -1)
-        
-        # Add text
+
         font = cv2.FONT_HERSHEY_SIMPLEX
         font_scale = 0.5
         thickness = 1
-        
-        # Calculate text size for centering
+
         (text_width0, text_height0), _ = cv2.getTextSize(filename0, font, font_scale, thickness)
         (text_width1, text_height1), _ = cv2.getTextSize(filename1, font, font_scale, thickness)
-        
-        # Center text in each half
+
         x0 = (w0 - text_width0) // 2
         y0 = title_height // 2 + text_height0 // 2
         
