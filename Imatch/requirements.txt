@@ -1,0 +1,17 @@
+numpy~=2.2.6
+pandas~=2.3.3
+datasets~=4.3.0
+torch~=2.9.0
+pydantic~=2.12.3
+tqdm~=4.67.1
+matplotlib~=3.10.7
+lightglue~=0.0
+opencv-python~=4.12.0.88
+kornia~=0.8.1
+albumentations~=2.0.8
+rasterio~=1.4.3
+kagglehub~=0.3.13
+pyproj~=3.7.2
+shapely~=2.1.2
+packaging~=25.0
+torchvision~=0.24.0
