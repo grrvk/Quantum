@@ -5,6 +5,7 @@ __pycache__
 NER/results/ner-model
 
 Imatch/LightGlue
+Imatch/dataset/data/base_dataset
 Imatch/dataset/data/train
 Imatch/dataset/data/val
 Imatch/models/trainable/superpoint/superpoint_sm_checkpoints
