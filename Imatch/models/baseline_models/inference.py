@@ -1,4 +1,3 @@
-import torch
 import cv2
 import argparse
 import matplotlib.pyplot as plt
@@ -6,6 +5,7 @@ from pathlib import Path
 import numpy as np
 import rasterio
 
+from Imatch.dataset.utils import get_val_transforms
 from Imatch.models.baseline_models.loftr import LoFTR
 from Imatch.models.baseline_models.lightglue import LightGlue
 from Imatch.dataset.dataset import ImageDataset
@@ -89,7 +89,7 @@ if __name__ == "__main__":
         filename0 = Path(args.image0_path).name
         filename1 = Path(args.image1_path).name
     elif args.dataset_dir:
-        dataset = ImageDataset(root_dir=args.dataset_dir, target_size=(512, 512))
+        dataset = ImageDataset(root_dir=args.dataset_dir, target_size=(512, 512), transform=get_val_transforms())
         print(f"Dataset loaded with {len(dataset)} images")
         print(f"Processing images at indices {args.image_idx0} and {args.image_idx1}")
         
